@@ -1,0 +1,18 @@
+{
+     "batch_size": 100,
+     "epochs": 5,
+     "n_save": 1,
+     "logits": false,
+     "alternate_batch": false,
+     "penalize": false,
+     "train_adv": true,
+     "train_cla": true,
+     "train_dec": false,
+     "fair_loss": false,
+     "lam": [1, 1, 0],
+     "lr": 1e-5,
+     "decay":1e-4,
+     "EXP": 1.1,
+     "dataset": "adult",
+     "root_path": "../datasets/adult/"
+}
